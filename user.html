@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUROBOROS</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+<!--HEADER Start-->
+<header class="header">
+    <div class="contenedor contenido-header">
+        <!--NAVBAR Start-->
+        <div class="barra">
+            <div class="logo">
+                <!--OUROBOROS Logo-->
+                 <picture class="logo-ouroboros">
+                    <source srcset="build/img/OuroborosMx_SinFondo.webp" type="image/webp">
+                    <source srcset="build/img/OuroborosMx_SinFondo.png" type="image/png">
+                    <a href="/"><img loading="lazy" src="build/img/OuroborosMx_SinFondo.png" alt="Ouroboros Logo"></a>
+                </picture>
+                <!--OUROBOROS LOGO END-->
+            </div>
+            <!--BURGER Menu Bars Start-->
+            <div class="mobile-menu">
+                <img src="build/img/barras.svg" alt="Icono Burger Menu">
+            </div>
+            <!--BURGER Bars End-->
+
+            <!--BURGER MENU Content-->
+            <div class="derecha">
+                <nav class="navegacion">
+                    <a href="/index.html">Inicio</a>
+                    <a href="/productos.html">Productos</a>
+                    <a href="/tallas.html">Tallas</a>
+                    <a href="/#">Envíos</a>
+                    <a href="/faq.html">FAQ</a>
+                    <div class="nav-user-cart">
+                        <a class="cart" href="/user.html"> <img src="build/img/user.svg" alt="User Button"> </a>
+                        <a href="/cart.html"> <img src="build/img/cart.svg" alt="Cart Button"> </a>
+                        <a href="#"> <img src="build/img/logout.svg" alt="logout Button"> </a>
+                    </div>
+                </nav><!--.navegacion-->
+            </div><!--.derecha-->
+            <!--BURGER MENU Content END -->
+
+            </div> <!--.barra-->
+
+    </div>
+    <!--NAVBAR End-->
+</header>
+<!--HEADER END-->
+
+<!--user-dashboard-grid Start-->
+
+<section class="contenedor user-dahsboard-grid">
+    <aside class="orders-column">
+        <ul class="orders-lista">
+            <a class="order-opt-obj" href="#"> Mis Compras</a>
+            <a class="order-opt-obj" href="#"> Transacciones </a>
+            <a class="order-opt-obj" href="#"> Devoluciones y pagos </a>
+            <a class="order-opt-obj" href="#">Configuracion </a>
+            <a class="order-opt-obj" href="#"> Ordenes recibidas </a>
+        </ul>
+    </aside>
+
+    <main class="contenedor orders-content">
+        <div class="order-title">
+            <p>ID de Orden: 123456789 </p>
+            <p> Fecha de Orden: 22 Enero de 2024 </p>
+        </div>
+        <div class="order-info">
+            <div class="order-2-row-info">
+            <ul class="order-row-info">
+                <h2>Usuario:</h2>
+                <p>Carlos De Los Santos</p>
+                <p>Teléfono: +1234567890</p>
+                <p>Email: caraledso@gmail.com</p>
+                <p>Dirección: Niño Jesús 260, Dpto. G204, La Joya, Tlalpan, CDMX, México</p>
+                <p>Estado: Recibido</p>
+            </ul>
+            <ul class="order-row-info">
+                <h2>Información de Pago:</h2>
+                <p> <span class="orders-payment"> Visa **** 4217 </span></p>
+                <p>Subtotal: $ 356</p>
+                <p>Envío: $ 150</p>
+                <p>Total: $ 506</p>
+            </ul>
+
+            </div>
+            <div class="order-info-list">
+                <table class="order-info-list-table">
+                    <tr>
+                        <td width="65">
+                            <img src="#" class="img-xs border">
+                        </td>
+                        <td> 
+                            <p class="order-info-list-productname">Nombre del producto va aqui </p>
+                            <var>USD 145</var>
+                        </td>
+                        <td> Vendedor <br> Nike clothing </td>
+                        <td> <a href="#" class="boton-azulOscuro">Seguir orden</a> <a href="#" class="boton-grisOscuro"> Detalles </a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="#" class="img-xs border">
+                        </td>
+                        <td> 
+                            <p class="title mb-0">Nombre del producto va a aqui </p>
+                            <var class="price text-muted">USD 15</var>
+                        </td>
+                        <td> Vendedor <br> ABC shop </td>
+                        <td> <a href="#" class="boton-azulOscuro">Seguir orden</a> <a href="#" class="boton-grisOscuro"> Detalles </a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="#" class="img-xs border">
+                        </td>
+                        <td> 
+                            <p class="title mb-0">Nombre del producto va aqui</p>
+                            <var class="price text-muted">USD 145</var>
+                        </td>
+                        <td> Vendedor <br> Wallmart </td>
+                        <td> <a href="#" class="boton-azulOscuro">Seguir orden</a> <a href="#" class="boton-grisOscuro"> Detalles </a> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </main>
+
+</section>
+
+<!--user-dashboard-grid End-->
+
+
+
+    <footer class="footer seccion">
+
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="/colecciones.html">Colecciones</a>
+                <a href="/productos.html">Productos</a>
+                <a href="/nosotros.html">Nosotros</a>
+                <a href="/faq.html">FAQ</a>
+            </nav>
+        </div>
+
+        <p class="copyright"> OUROBOROS JEWELS, OUROBOROS, 2023 &copy;</p>
+
+    </footer>
+    
+    <script src="./build/js/bundle.min.js"></script>
+
+</body>
+</html>
