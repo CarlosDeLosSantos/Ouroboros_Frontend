@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUROBOROS</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+<!--HEADER Start-->
+<header class="header">
+    <div class="contenedor contenido-header">
+        <!--NAVBAR Start-->
+        <div class="barra">
+            <div class="logo">
+                <!--OUROBOROS Logo-->
+                 <picture class="logo-ouroboros">
+                    <source srcset="build/img/OuroborosMx_SinFondo.webp" type="image/webp">
+                    <source srcset="build/img/OuroborosMx_SinFondo.png" type="image/png">
+                    <a href="/"><img loading="lazy" src="build/img/OuroborosMx_SinFondo.png" alt="Ouroboros Logo"></a>
+                </picture>
+                <!--OUROBOROS LOGO END-->
+            </div>
+            <!--BURGER Menu Bars Start-->
+            <div class="mobile-menu">
+                <img src="build/img/barras.svg" alt="Icono Burger Menu">
+            </div>
+            <!--BURGER Bars End-->
+
+            <!--BURGER MENU Content-->
+            <div class="derecha">
+                <nav class="navegacion">
+                    <a href="/index.html">Inicio</a>
+                    <a href="/productos.html">Productos</a>
+                    <a href="/tallas.html">Tallas</a>
+                    <a href="/#">Envíos</a>
+                    <a href="/faq.html">FAQ</a>
+                    <div class="nav-user-cart">
+                        <a class="cart" href="/user.html"> <img src="build/img/user.svg" alt="User Button"> </a>
+                        <a href="/cart.html"> <img src="build/img/cart.svg" alt="Cart Button"> </a>
+                        <a href="#"> <img src="build/img/logout.svg" alt="logout Button"> </a>
+                    </div>
+                </nav><!--.navegacion-->
+            </div><!--.derecha-->
+            <!--BURGER MENU Content END -->
+
+            </div> <!--.barra-->
+
+    </div>
+    <!--NAVBAR End-->
+</header>
+<!--HEADER END-->
+
+<!--cart-interface Start-->
+<div class="contenedor">
+    <section class="cart-interface-list">
+        <div class="order-info-list">
+            <div class="form">
+                <form class="formulario cart-interface">
+                    <fieldset>
+                    <h2>Dirección de Envío</h2>
+                    <div class="form-contenedor-campos">
+                      <div class="form-contenedor-campo">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Nombre">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>Apellidos</label>
+                        <input type="text" placeholder="Nombre">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>Email</label>
+                        <input type="email" placeholder="Correo Electrónico">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>Teléfono</label>
+                       <input type="tel" placeholder="Número de teléfono">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>Dirección</label>
+                        <input type="text" placeholder="Dirección">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>Detalles de Dirección</label>
+                        <input type="text" placeholder="Detalles de Dirección">
+                      </div>
+
+                      <div class="form-contenedor-campo">
+                        <label>Ciudad</label>
+                        <input type="text" placeholder="Ciudad">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>No. Exterior</label>
+                        <input type="text" placeholder="No. Exterior">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>No. Interior</label>
+                        <input type="text" placeholder="No. Interior">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>C. Postal</label>
+                        <input type="text" placeholder="C. Postal">
+                      </div>
+                      <div class="form-contenedor-campo">
+                        <label>País</label>
+                        <input type="text" placeholder="País">
+                      </div>
+
+                      <div class="form-contenedor-campo">
+                        <label>Describe Tu Orden:</label>
+                        <textarea class="input-text"></textarea>
+                      </div>
+                    </div> <!--.contenedor-campos--> 
+                    </fieldset>
+                    <aside class="cart-interface-payment">
+                        <h2>Checkout</h2>
+                        <table class="order-info-list-table">
+                            <thead class="">
+                                <tr class="">
+                                  <th scope="">Producto</th>
+                                  <th scope="" width="">Precio</th>
+                                  <th scope="" width="">Cantidad</th>
+                                  <th scope="" class="" width=""> </th>
+                                </tr>
+                                </thead>
+                            <tr>
+                                <td width="65">
+                                    <img src="#" class="img-xs border">
+                                </td>
+                                <td> 
+                                    <p class="order-info-list-productname"> Gafas The Egos </p>
+                
+                                </td>
+                                <td class="cart-interface-object-price"> $ 600 
+                                    <p class="cart-interface-object-price2"> $ 300 </p>
+                                </td>
+                                
+                                <td class="cart-interface-object-quantity-buttons">  
+                                        <div class="cart-interface-object-quantity"> 2 </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="#" class="img-xs border">
+                                </td>
+                                <td> 
+                                    <p class="order-info-list-productname">Anillo Runas </p>
+                                    
+                                </td>
+                                <td class="cart-interface-object-price"> $ 360 
+                                    <p class="cart-interface-object-price2"> $ 180 </p>
+                                </td>
+                                <td class="cart-interface-object-quantity-buttons">  
+                
+                                    <div class="cart-interface-object-quantity"> 2 </div>
+                            
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="#" class="img-xs border">
+                                </td>
+                                <td> 
+                                    <p class="order-info-list-productname">Esclava Hermes</p>
+                                    
+                                </td>
+                                <td class="cart-interface-object-price"> $ 360 
+                                    <p class="cart-interface-object-price2"> $ 180 </p>
+                                </td>
+                                <td class="cart-interface-object-quantity-buttons">  
+                                    <div class="cart-interface-object-quantity"> 2 </div>
+                                </td>
+                            </tr>
+                        </table>
+                
+                        <button type="submit" name="submit" class="boton-verde-block"> Ordenar Productos</button>
+                        <a href="/productos.html" class="botonClaro-gris-block"> Seguir Comprando </a>
+                
+                    </aside>
+
+                  </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<!--cart-interface End-->
+
+
+
+    <footer class="footer seccion">
+
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="/colecciones.html">Colecciones</a>
+                <a href="/productos.html">Productos</a>
+                <a href="/nosotros.html">Nosotros</a>
+                <a href="/faq.html">FAQ</a>
+            </nav>
+        </div>
+
+        <p class="copyright"> OUROBOROS JEWELS, OUROBOROS, 2023 &copy;</p>
+
+    </footer>
+    
+    <script src="./build/js/bundle.min.js"></script>
+
+</body>
+</html>
