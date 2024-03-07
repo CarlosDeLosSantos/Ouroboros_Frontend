@@ -48,48 +48,58 @@
     <!--NAVBAR End-->
 </header>
 <!--HEADER END-->
-<!--user-dashboard-grid Start-->
+<main class="contenedor seccion">
+    <h1>Detalle de Producto</h1>
 
-<section class="contenedor user-dahsboard-grid">
-    <aside class="orders-column">
-        <ul class="orders-lista">
-            <a class="order-opt-obj" href="user.html"> Resumen</a>
-            <a class="order-opt-obj" href="user_mis_ordenes.html"> Mis Ordenes </a>
-            <a class="order-opt-obj" href="user_editar_perfil.html"> Editar Perfil </a>
-            <a class="order-opt-obj" href="user_cambio_password.html">Cambio de Contraseña </a>
-        </ul>
-    </aside>
-        <div class="order-info">
-            <div class="order-2-row-info">
-            <ul class="order-row-info">
-                <h4>Total de Ordenes</h4>
-                <h3>3</h3>
-                <a href="#">Detalle de Ordenes</a>
-            </ul>
-            <ul class="order-row-info">
-                <h4>Ruckstarjewels@gmail.com</h4>
-                <div class="user-photo-container">
-
-                    <img src="build/img/user.svg">
-
-                </div>
-                
-                <p>5521893507</p>
-                
-            </ul>
-
+    <div class="contenedor contenedor-producto-detalle">
+        <div class="producto">
+            <div class="contenedor-img-producto-detalle">
+                <picture>
+                    <source srcset="build/img/HERMES.webp" type="image/webp">
+                    <source srcset="build/img/HERMES.jpg" type="image/jpg">
+                    <img loading="lazy" src="build/img/HERMES.jpg" alt="Producto">
+                </picture>
             </div>
+        </div><!--.producto-->
+        <div class="contenido-producto">
+            <h3>Esclava <span class="nombre-producto"> Hermes </span> </h3>
+            <p class="precio-detalle">$180 </p>
+             <p> Impuesto incluido. Los gastos de envío se calculan en la pantalla de pagos. </p>
 
+             <div class="contenedor-producto-detalle-carrito">
+                <form action="">
+                    <div class="form-contenedor-campo">
+                        <label for="">Talla</label>
+                        <select class="producto-detalle-select-large" name="" id="">
+                            <option value="value1">Value 1</option>
+                            <option value="value2" selected>Value 2</option>
+                            <option value="value3">Value 3</option>
+                        </select>
+                    </div>
+                    <div class="form-contenedor-campo">
+                        <label for="">Cantidad</label>
+                        <select class="producto-detalle-select-short" name="" id="">
+                            <option value="value1">Value 1</option>
+                            <option value="value2" selected>Value 2</option>
+                            <option value="value3">Value 3</option>
+                        </select>
+                    </div>
+                </form>
+             </div>
+
+        </div><!--.contenido-producto-->
+
+
+    </div><!--.contenedor-productos-->
+
+        <div class="alinear-derecha">
+            <a href="productos.html" class="boton-azulOscuro">Ver Todos</a>
         </div>
-        
-    </main>
-
-</section>
-
-<!--user-dashboard-grid End-->
 
 
 
+
+    </main> <!--.main-->
     <footer class="footer seccion">
 
         <div class="contenedor contenedor-footer">
